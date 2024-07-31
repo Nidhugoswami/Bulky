@@ -1,10 +1,10 @@
-using BulkyWebRazor_Temp.Data;
-using BulkyWebRazor_Temp.Models;
+using BulkyBookWebRazor_Temp.Data;
+using BulkyBookWebRazor_Temp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace BulkyWebRazor_Temp.Pages.Categories
+namespace BulkyBookWebRazor_Temp.Pages.Categories
 {
     [BindProperties]  //process that takes values from HTTP requests and maps them to handler method parameters or PageModel properties. Model binding reduces the need for the developer to manually extract values from the request and then assign them, one by one, to variables or properties for later processing. 
     public class DeleteModel : PageModel

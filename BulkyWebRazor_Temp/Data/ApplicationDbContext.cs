@@ -1,9 +1,9 @@
-﻿using BulkyWebRazor_Temp.Models;
+﻿using BulkyBookWebRazor_Temp.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection.Emit;
 
-namespace BulkyWebRazor_Temp.Data
+namespace BulkyBookWebRazor_Temp.Data
 {
     public class ApplicatiobDbContext : DbContext
     {
